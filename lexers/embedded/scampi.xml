@@ -62,7 +62,7 @@
         <token type="LiteralNumberInteger"/>
       </rule>
 
-      <rule pattern="\b(module|import|let|type|func|decl|enum|attribute)\b">
+      <rule pattern="\b(module|import|pub|let|type|func|decl|enum|attribute)\b">
         <token type="KeywordDeclaration"/>
       </rule>
 
